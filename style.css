@@ -94,3 +94,52 @@ nav a {
 .ims img {
     width: 616px;
 }
+
+/* new section css start  */
+
+#two_sectionssss {
+    margin: 0 auto;
+    width: 1280px;
+    /* background-color: aqua; */
+    margin-top: 80px;
+
+}
+#two_sectionssss h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 1);
+}
+.some_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.cad {
+    /* border: 2px solid black; */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.385);
+    padding: 24px;
+    margin-top: 32px;
+    width: 302px;
+    /* height: 244px; */
+}
+
+.cad img {
+    width: 64px;
+}
+
+.cad h4{
+    font-size: 20px;
+    font-weight: bold;
+    color:rgba(14, 14, 14, 0.8);
+    margin-top: 24px;
+}
+
+.cad p{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgba(14, 14, 14, 0.7);
+    margin-top: 24px;
+}
