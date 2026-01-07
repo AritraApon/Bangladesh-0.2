@@ -1,3 +1,96 @@
-body{
-    background-color: rgb(73, 133, 186);
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.work-sans- {
+    font-family: "Fira Sans, sans-serif;
+ font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+body {
+    max-width: 1600px;
+    /* background-color: darkgray; */
+}
+
+/* header css star  */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 955px;
+    /* background-color: azure; */
+    align-items: center;
+    height: 100px;
+}
+
+nav h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+nav a {
+    /* border-style: none; */
+    text-decoration: none;
+    border: 2px solid green;
+    border-radius: 5px;
+    color: rgba(0, 106, 80, 1);
+    padding: 15px 30px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* first section css style  */
+
+#hero {
+    background-color: rgba(198, 228, 214, 1);
+    width: 1280px;
+    height: 580px;
+    margin: 0 auto;
+    display: flex;
+    gap: 64px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+
+}
+.text_btn{
+    margin-left: 59px;
+    width: 622px;
+    /* height: 201px; */
+}
+.text_btn p {
+    font-size: 24px;
+    font-weight: 500px;
+    color: rgba(14, 14, 14, 0.5);
+
+}
+
+.text_btn h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.btn{
+    /* margin-top: 40px; */
+}
+.btn a {
+    text-decoration: none;
+    background: rgba(0, 106, 80, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 106, 80, 1);
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 36px;
+
+}
+.ims img {
+    width: 616px;
 }
